@@ -7,10 +7,16 @@
 			"problemMatcher": [
 				"$tsc-watch"
 			],
-			"group": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
 			"label": "npm: watch",
 			"detail": "tsc -w",
-			"isBackground": true
+			"isBackground": true,
+			"presentation": {
+				"reveal": "never"
+			}
 		}
 	]
 }
